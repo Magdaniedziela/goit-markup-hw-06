@@ -27,6 +27,7 @@ ol {
   --white: #fff;
   --transition-variable: cubic-bezier(0.4, 0, 0.2, 1);
   --modal-data-background: #fcfcfc;
+  ----LIGHT-SLATE: #8e8f99;
 }
 .section {
   padding: 120px 0;
@@ -728,7 +729,42 @@ h2 {
 .data-modal-icon {
   transition: fill 250ms var(--transition-variable);
 }
-
+.data-modal-p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.data-modal-box-one {
+  margin-bottom: 8px;
+}
+.data-modal-box-labels {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+  color: var(--LIGHT-SLATE, #8e8f99);
+  display: block;
+  margin-bottom: 4px;
+}
+.data-modal-box-two {
+  position: relative;
+  margin-bottom: 8px;
+}
+.data-modal-icons {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
