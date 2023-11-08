@@ -749,7 +749,7 @@ h2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.48px;
   color: var(--LIGHT-SLATE, #8e8f99);
   display: block;
@@ -844,7 +844,7 @@ h2 {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.terms-and-condition {
+.terms-and-conditions {
   padding-left: 8px;
 }
 .privacy-link {
